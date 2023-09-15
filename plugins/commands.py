@@ -154,10 +154,8 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/Happy_Hour_Friends")
-                         ]
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/The_Happy_Hours')
+                       ]
                         ]
                     )
                 )
@@ -173,10 +171,8 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/Happy_Hour_Friends")
-                         ]
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/The_Happy_Hours')
+                       ]
                         ]
                     )
                 )
@@ -330,15 +326,13 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                   ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/Happy_Hour_Friends")
-                     ]
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/The_Happy_Hours')
+                   ]
                     ]
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>ये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>ㅤㅤㅤㅤㅤㅤㅤ\nये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -392,10 +386,8 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                   ],[
-                      InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/Happy_Hour_Friends")
-                     ]
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/The_Happy_Hours')
+                   ]
                     ]
                 )
             )
@@ -413,7 +405,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b>ये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>",quote=True)
+            k = await msg.reply("<b>ㅤㅤㅤㅤㅤㅤㅤ\nये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -452,17 +444,15 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-           ],[
-              InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="t.me/Happy_Hour_Friends")
-             ]
+              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=f'https://t.me/The_Happy_Hours')
+           ]
             ]
         )
     )
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b>ये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>",quote=True)
+    k = await msg.reply("<b>ㅤㅤㅤㅤㅤㅤㅤ\nये मूवी 10 मिनिट में अपने आप डिलीट हो जाएगा....(Copyright Protection)\nइस लिए मूवी किसी दूसरे चेट में फॉरवर्ड कर के सेव करें.....\n\nThis Movie automatically delete in 10 minit (Copyright Protection)\nSo please Forward other chat & save it</b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
