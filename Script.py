@@ -189,7 +189,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<a href="https://t.me/thewarriorsreal"><b>{file_name}</b></a>""" 
+    CAPTION = """<a href="https://t.me/thewarriorsreal"><b>{file_caption}</b></a>""" 
 
     IMDB_TEMPLATE_TXT = """<b>🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
